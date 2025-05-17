@@ -1,0 +1,7 @@
+/* ---------- CSS reset / root vars ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
