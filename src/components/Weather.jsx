@@ -14,7 +14,6 @@ export default function Weather() {
         );
         const data = await res.json();
         setWeatherData(data);
-        console.log(data);
       } catch (error) {
         console.log(error);
       }
